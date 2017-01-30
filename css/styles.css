@@ -1,7 +1,6 @@
 #header-right {
   text-align: right;
   font-weight: bold;
-  margin-right: auto;
 }
 
 img {
@@ -10,6 +9,10 @@ img {
 }
 
 #local-time {
+  font-weight: bold;
+}
+
+#user-name {
   font-weight: bold;
 }
 
