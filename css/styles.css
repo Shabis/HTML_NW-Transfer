@@ -1,0 +1,26 @@
+#header-right {
+  text-align: right;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+img {
+  width: 75px;
+  height: auto;
+}
+
+#local-time {
+  font-weight: bold;
+}
+
+header {
+  background: #E5ECEB;
+  color: #786f76;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  background: #E5ECEB;
+  color: #786f76;
+  font-family: 'Lato', sans-serif;
+}
