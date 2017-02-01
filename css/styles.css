@@ -28,15 +28,54 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
+#job-details {
+  background: #E5ECEB;
+  color: #010202;
+  font-family: 'Lato', sans-serif;
+  border-style: solid;
+  border-right: -10px;
+}
+
 .arrow {
   width: 80px;
   height: auto;
 }
 
+#left-arrow {
+  float: left;
+}
+
+#last-job-text {
+  margin-top: 15px;
+}
+
 #next-job-text {
   text-align: right;
+  margin-top: 15px;
 }
 
 #toggle-screen-bar {
   margin: auto;
+}
+
+.section-title {
+  margin-left: 10px;
+  font-weight: bold;
+  background: #262626;
+  color: #E5E5E5;
+  margin-right: -18px;
+}
+
+.subheader {
+  font-weight: bold;
+}
+
+#job-description {
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  border-style: solid;
+  border-top: none;
+  border-right: none;
+  margin-right: -18px;
 }

@@ -8,27 +8,40 @@
     <title>NW Transfer</title>
   </head>
   <header>
+    <!-- ///////////////////////HEADER///////////////////////////// -->
     <div class="row">
-      <div class="col-md-1">
+      <div class="col-xs-1">
         <img class="user-image" src="images/User_Silhouette_Placeholder.png" alt="User Silhouette Placeholder">
       </div>
-      <div class="col-md-7">
+      <div class="col-xs-7">
         <h1 id="user-name">Otto Petrovsky</h1>
         <h6>from 8am-6pm</h6>
       </div>
-      <div class="col-md-3" id="header-right">
+      <div class="col-xs-3" id="header-right">
         <h1 id="local-time">00:00</h1>
         <h3 id="local-date">January 1, 2017</h3>
       </div>
     </div>
   </header>
   <body>
-    <div class="row container" id="toggle-screen-bar">
-      <img class="col-md-1 arrow" src="images/left-arrow.png" alt="left arrow">
-      <a class="col-md-5" id="last-job-text" href="#">Previous Job Page</a>
-      <a class="col-md-5" id="next-job-text" href="#">Next Job Page</a>
-      <img class="col-md-1 arrow" src="images/right-arrow.png" alt="right arrow">
+    <!-- //////////////////TOGGLE JOBS BAR/////////////////////////// -->
+    <div class="row" id="toggle-screen-bar">
+      <img class="col-xs-1 arrow" src="images/left-arrow.png" alt="left arrow">
+      <a class="col-xs-5" id="last-job-text" href="#">Previous Job Page</a>
+      <a class="col-xs-5" id="next-job-text" href="#">Next Job Page</a>
+      <img class="col-xs-1 arrow" src="images/right-arrow.png" alt="right arrow">
     </div>
-
+    <div class="row">
+    <!-- //////////////////JOB DETAILS SECTION/////////////////////// -->
+      <div class="row col-xs-9" id="job-details">
+        <div class="col-md-12 section-title">
+          <p>Job Details</p>
+        </div>
+        <div class="col-md-12" id="job-description">
+          <h4 class="subheader">Job Description:</h4>
+          <p>Fusce a metus eu diam varius congue nec nec sapien. Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue.</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
