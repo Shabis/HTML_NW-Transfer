@@ -34,6 +34,7 @@ html {
   font-family: 'Lato', sans-serif;
   border-style: solid;
   border-right: -10px;
+  border-color: #6C6D6D;
 }
 
 .arrow {
@@ -74,8 +75,26 @@ html {
   text-align: center;
   padding-left: 25%;
   padding-right: 25%;
-  border-style: solid;
-  border-top: none;
-  border-right: none;
+  border-bottom: solid;
   margin-right: -18px;
+  border-color: #6C6D6D;
+}
+
+.subsection-title {
+  color: #858585;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+
+.job-detail {
+  padding-left: 25%;
+  padding-right: 25%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#start-end-date {
+  border-left: solid;
+  border-right: solid;
+  border-color: #6C6D6D;
 }
