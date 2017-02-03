@@ -139,6 +139,7 @@ html {
   margin-left: 2em;
   border-style: solid;
   border-color: #6C6D6D;
+  margin-bottom: 1em;
 }
 
 #notification-description-1 {
@@ -155,4 +156,8 @@ html {
 
 .table-striped > tbody > tr:nth-of-type(even) {
   background-color: #E5ECEB;
+}
+
+#contact-image {
+  width: 4em;
 }
