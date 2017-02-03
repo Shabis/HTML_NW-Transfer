@@ -35,6 +35,7 @@ html {
   border-style: solid;
   border-right: -10px;
   border-color: #6C6D6D;
+  margin-left: 20px;
 }
 
 .arrow {
@@ -55,16 +56,12 @@ html {
   margin-top: 15px;
 }
 
-#toggle-screen-bar {
-  margin: auto;
-}
-
 .section-title {
-  margin-left: 10px;
   font-weight: bold;
   background: #262626;
   color: #E5E5E5;
-  margin-right: -18px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .subheader {
@@ -72,23 +69,23 @@ html {
 }
 
 #job-description {
+  margin-left: -15px;
+  margin-right: -15px;
   text-align: center;
   padding-left: 25%;
   padding-right: 25%;
   border-bottom: solid;
-  margin-right: -18px;
   border-color: #6C6D6D;
 }
 
 .subsection-title {
   color: #858585;
-  font-family: 'Lato', sans-serif;
   font-style: italic;
 }
 
-.job-detail {
-  padding-left: 25%;
-  padding-right: 25%;
+.timeline {
+  margin-left: -15px;
+  margin-right: -15px;
   font-weight: bold;
   text-align: center;
 }
@@ -97,4 +94,65 @@ html {
   border-left: solid;
   border-right: solid;
   border-color: #6C6D6D;
+}
+
+.task-list {
+  background: #F2F2F2;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #6C6D6D;
+  color: #010202;
+  margin-bottom: 1em;
+}
+
+.icons {
+  width: 6%;
+  height: auto;
+  padding-top: 2%;
+}
+
+.bar {
+  font-size: 3.5em;
+  color: #858585;
+}
+
+.subtext {
+  font-style: italic;
+}
+
+.task-number {
+  padding-top: 1.5%;
+  text-align: right;
+  }
+
+@media only screen and  (min-width: 992px) {
+  .col-md-12 {
+    width: 104.5% !important;
+  }
+}
+
+.task-description {
+  display: none;
+}
+
+#notification-section {
+  margin-left: 2em;
+  border-style: solid;
+  border-color: #6C6D6D;
+}
+
+#notification-description-1 {
+  display: none;
+}
+
+.notification-icon {
+  width: 2em;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #F2F2F2;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #E5ECEB;
 }
