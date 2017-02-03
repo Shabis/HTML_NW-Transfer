@@ -135,7 +135,7 @@ html {
   display: none;
 }
 
-#notification-section {
+.right-sidebar-section {
   margin-left: 2em;
   border-style: solid;
   border-color: #6C6D6D;
