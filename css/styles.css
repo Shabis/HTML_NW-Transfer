@@ -4,9 +4,10 @@
 }
 
 #user-image {
-  width: 7em;
+  width: 4em;
   height: auto;
-  margin-left: 2em;
+  margin-left: 4em;
+  margin-top: 1.5em;
 }
 
 #hours {
@@ -186,7 +187,7 @@ p {
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #F2F2F2;
+  background-color: #F2F2F2 !important;
 }
 
 .table-striped > tbody > tr:nth-of-type(even) {
