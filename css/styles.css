@@ -23,7 +23,6 @@
 }
 
 header {
-  background: #E5ECEB;
   color: #010202;
   font-family: 'Lato', sans-serif;
 }
@@ -45,6 +44,11 @@ body {
 
 #left-arrow {
   float: left;
+}
+
+.arrow {
+  height: 3em;
+  width: 3em !important;
 }
 
 #last-job-text {
@@ -104,6 +108,10 @@ a:visited {
   border-left: solid;
   border-right: solid;
   border-color: #6C6D6D;
+}
+
+#toggle-screen-bar {
+  background: #FFFFFF !important;
 }
 
 .task-list {
