@@ -4,8 +4,13 @@
 }
 
 #user-image {
-  width: 75px;
+  width: 7em;
   height: auto;
+  margin-left: 2em;
+}
+
+#hours {
+  margin-left: 3.2em;
 }
 
 #local-time {
@@ -14,6 +19,7 @@
 
 #user-name {
   font-weight: bold;
+  margin-left: 1em;
 }
 
 header {
