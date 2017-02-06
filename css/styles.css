@@ -52,12 +52,12 @@ body {
 }
 
 #last-job-text {
-  margin-top: 2em;
+  margin-top: .8em;
 }
 
 #next-job-text {
   text-align: right;
-  margin-top: 2em;
+  margin-top: .8em;
 }
 
 a {
