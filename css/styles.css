@@ -111,6 +111,8 @@ a:visited {
   margin-right: -1.1em;*/
   font-weight: bold;
   text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 #start-end-date {
